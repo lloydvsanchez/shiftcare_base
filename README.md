@@ -1,6 +1,6 @@
 ## ShiftCare Clients Parser
 #### Run:
-- on cmd `ruby main.rb`
+- on cmd `./app`
   
 #### Command list:
     S - search for clients by name given a query string
@@ -18,4 +18,4 @@
             {"jane.smith@yahoo.com"=>2}            
 
 #### Tests:
-- on cmd `ruby clients_parser_spec.rb`
+- on cmd `bundle exec ruby clients_parser_spec.rb`
